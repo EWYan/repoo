@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-<remote name="hexdd" fetch="https://github.com/EWYan"/>
-<default revision="refs/heads/main" remote="hexdd" sync-j="4"/>
-<project name="EWYan/hexdd" remote="hexdd"/>
+<remote name="hexdd" fetch="https://github.com/EWYan/hexdd.git"/>
+<project name="hexdd" remote="hexdd"/>
 </manifest>
