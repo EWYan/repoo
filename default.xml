@@ -1,5 +1,5 @@
 <manifest>
-<remote name="origin" fetch="https://github.com/EWYan/hexdd.git"/>
+<remote name="origin" fetch="https://github.com/EWYan"/>
 <default revision="main" remote="origin" sync-j="4"/>
-<project name="EWYan/hexdd" remote="origin"/>
+<project name="hexdd"/>
 </manifest>
