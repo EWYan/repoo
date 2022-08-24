@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-<remote name="origin" fetch="git@github.com:EWYan/hexdd.git"/>
-<default revision="refs/heads/main" remote="origin"/>
-<project remote="origin"/>
+  <remote  name="origin"
+           fetch=".."
+           revision="master" />
+  <remote  name="github"
+           fetch="https://github.com"
+           revision="master"
+           review="" />
+  <default remote="origin"
+           revision="master"
+           sync-j="4" />
+  <project name="EWYan/hexdd"/>
 </manifest>
