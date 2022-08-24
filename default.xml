@@ -2,13 +2,13 @@
 <manifest>
   <remote  name="origin"
            fetch=".."
-           revision="master" />
+           revision="main" />
   <remote  name="github"
            fetch="https://github.com"
-           revision="master"
+           revision="main"
            review="" />
   <default remote="origin"
-           revision="master"
+           revision="main"
            sync-j="4" />
   <project name="EWYan/hexdd"/>
 </manifest>
